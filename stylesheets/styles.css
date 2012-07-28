@@ -1,0 +1,229 @@
+@font-face {
+    font-family: 'EntypoRegular';
+    src: url('/fonts/entypo-webfont-eot.eot');
+    src: url('/fonts/entypo-webfont-eot.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/entypo-webfont-woff.woff') format('woff'),
+         url('/fonts/entypo-webfont-ttf.ttf') format('truetype'),
+         url('/fonts/entypo-webfont-svg.svg#EntypoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+* {
+   margin:0;
+   padding:0;
+   outline:0;
+   border:0;
+}
+html,body {
+    color:#666;
+    font-family:Arial,sans-serif;
+    font-size:80%;
+    background-color:#000;
+    overflow:hidden;
+}
+h1, h2, h3, h4 {
+    color:#000;
+    font-family:Georgia,"Times New Roman",Helvetica,serif;
+    font-size:1.8em;
+    font-weight:normal;
+}
+h1 a{
+    color:#000;
+    text-decoration:none;
+}
+img {
+    border:none;
+}
+a {
+    color:#000;
+    text-decoration:underline;
+}
+a:hover {
+    text-decoration:none;
+}
+.l-content {
+    width:100%;
+    height:100%;
+    min-width:800px;
+    min-height:600px;
+    position:absolute; 
+    left:0px; 
+    top:0px; 
+    z-index:0;
+}
+.back {
+    width:100%;
+    height:100%;
+    position:relative;
+    z-index:10;
+}
+.l-blog {
+    width:650px;
+    height:540px;
+    background:url(../images/back_blog.gif) repeat-y left top;
+    padding-bottom:50px;
+    position:absolute;
+    bottom:0px;
+    right:0px;
+    z-index:50;
+}
+.h-blog-content {
+    height:100%;
+    overflow:auto;
+}
+.hentry {
+    padding:0px 110px 0px 10px;
+    position:relative;
+}
+.hentry .entry-title{
+    padding:20px 32px 10px 10px;
+    border-bottom:1px solid #DDD;
+}
+.hentry .date{
+    display:none;
+}
+.hentry .content{
+    font-size:1.4em;
+    padding:5px 10px 0px 10px;
+    clear:both;
+}
+.hentry .content p{
+    text-indent:10px;
+    line-height:140%;
+    margin-bottom:1em;
+}
+#flash {
+    width:500px;
+    height:375px;
+    text-indent:0px;
+    line-height:0;
+}
+.b-buttons {
+    padding-top:5px;
+}
+.fb-like {
+    float:right;
+    padding-right:10px;
+}
+#vkshare0 {
+    float:right;
+}
+.twitter-share-button {
+    float:right;
+    margin-right:-10px;
+}
+.table-of-contents {
+    list-style:decimal-leading-zero;
+    padding-left:27px;
+}
+.table-of-contents li{
+    padding-bottom:3px;
+}
+.table-of-contents li:last-child{
+    list-style:none;
+}
+.useful-links {
+    padding-top:10px;
+    padding-left:27px;
+}
+.useful-links li{
+    padding-bottom:3px;
+}
+.ps {
+    padding-top:10px;
+    padding-left:27px;
+}
+.ps li{
+    padding-bottom:3px;
+    padding-left:10px;
+}
+.ps li ul{
+    padding-top:5px;
+}
+.comingsoon {
+    text-decoration:line-through;
+}
+.dlink {
+    list-style:none;
+    padding-left:10px;
+}
+.entrymeta {
+    background:url(../images/comment.png) no-repeat;
+    width:32px;
+    height:28px;
+    text-align:center;
+    padding-top:4px;
+    position:absolute;
+    top:15px;
+    left:505px;
+    z-index:200;
+}
+.commentmeta {
+    font-family:Georgia,"Times New Roman",Helvetica,serif;
+    font-size:1.3em;
+    text-decoration:none;
+}
+.l-panel {
+    height:40px;
+    width:100%;
+    opacity:0.7;
+    background-color:#000;
+    position:absolute;
+    bottom:10px;
+    left:0px;
+    z-index:100;
+}
+div.pagination {
+    width:550px;
+    height:40px;
+    position:absolute;
+    right:100px;
+    bottom:0px;
+    z-index:110;
+}
+div.pagination ul.posts{
+    list-style:none;
+    position:absolute;
+    top:15px;
+}
+div.pagination ul.posts li{
+    float:left;
+    padding-right:10px;
+}
+div.pagination ul.posts li a{
+    display:block;
+    width:10px;
+    height:10px;
+    background-color:#333;
+    text-indent:-2000px;
+}
+div.pagination ul.posts li a:hover, div.pagination ul.posts li a.active{
+    background-color:#AAA;
+}
+.twitter {
+    width:48px;
+    height:55px;
+    background:url(../images/twitter.png) no-repeat;
+    text-indent:-2000px;
+    position:absolute;
+    right:25px;
+    top:-5px;
+    z-index:150;
+}
+.b-authors {
+    color:#333;
+    font-size:30px;
+    position:absolute;
+    left:5px;
+    top:-9px;
+}
+.authorone,.authortwo {
+    font-family:EntypoRegular;
+    font-size:56px;
+    color:#333;
+    text-decoration:none;
+}
+.authorone:hover,.authortwo:hover {
+    color:#AAA;
+}
